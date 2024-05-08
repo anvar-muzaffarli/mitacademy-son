@@ -29,6 +29,9 @@ import Konul from './trainers/Konul'
 
 // Education Fields
 import Helpdesk from './containers/it/Helpdesk'
+import System from './containers/it/System'
+import Bulud from './containers/it/Bulud'
+import Shebeke from './containers/it/Shebeke'
 
 
 // Syllabus Routes
@@ -57,6 +60,9 @@ function App() {
       {/* Course details routes  */}
 
       <Route path="/courses/helpdesk" element={<Helpdesk />} />
+      <Route path="/courses/sistem" element={<System />} />
+      <Route path="/courses/bulud" element={<Bulud />} />
+      <Route path="/courses/shebeke" element={<Shebeke />} />
     </Routes>
 
     <Footer />

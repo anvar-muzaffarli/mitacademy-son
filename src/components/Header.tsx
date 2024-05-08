@@ -46,16 +46,16 @@ const Navbar: React.FC = () => {
                     <RouterLink to="/it">IT</RouterLink>
                     <ul>
                       <li>
-                        <RouterLink to="#">Texniki dəstək (Helpdesk)</RouterLink>
+                        <RouterLink to="/courses/helpdesk">Texniki dəstək (Helpdesk)</RouterLink>
                       </li>
                       <li>
                         <RouterLink to="#">Sistem inzibatçılığı (Linux)</RouterLink>
                       </li>
                       <li>
-                        <RouterLink to="#">Sistem inzibatçılığı (Windows)</RouterLink>
+                        <RouterLink to="/courses/sistem">Sistem inzibatçılığı (Windows)</RouterLink>
                       </li>
                       <li>
-                        <RouterLink to="#">Şəbəkə inzibatçılığı</RouterLink>
+                        <RouterLink to="/courses/shebeke">Şəbəkə inzibatçılığı</RouterLink>
                       </li>
                       <li>
                         <RouterLink to="#">Kibertəhlükəsizliyin əsasları (Red team)</RouterLink>
@@ -179,16 +179,16 @@ const Navbar: React.FC = () => {
                         <RouterLink to="#">Tədris sahələri</RouterLink>
                         <ul className="mega-menu">
                           <li>
-                            <RouterLink to="/it">IT</RouterLink>
+                            <RouterLink to="#">IT</RouterLink>
                             <ul>
-                              <li><RouterLink to="#">Texniki dəstək (Helpdesk)</RouterLink></li>
+                              <li><RouterLink to="/courses/helpdesk">Texniki dəstək (Helpdesk)</RouterLink></li>
                               <li><RouterLink to="#">Sistem inzibatçılığı (Linux)</RouterLink></li>
-                              <li><RouterLink to="#">Sistem inzibatçılığı (Windows)</RouterLink></li>
-                              <li><RouterLink to="#">Şəbəkə inzibatçılığı</RouterLink></li>
+                              <li><RouterLink to="/courses/sistem">Sistem inzibatçılığı (Windows)</RouterLink></li>
+                              <li><RouterLink to="/courses/shebeke">Şəbəkə inzibatçılığı</RouterLink></li>
                               <li><RouterLink to="#">Kibertəhlükəsizliyin əsasları (Red team)</RouterLink></li>
                               <li><RouterLink to="#">IP Telefoniya</RouterLink></li>
                               <li><RouterLink to="#">Kibertəhlükəsizliyin əsasları (Blue team)</RouterLink></li>
-                              <li><RouterLink to="#">Virtuallaşdırma və Bulud texnologiyaları</RouterLink></li>
+                              <li><RouterLink to="/courses/bulud">Virtuallaşdırma və Bulud texnologiyaları</RouterLink></li>
                             </ul>
                           </li>
                           <li>
