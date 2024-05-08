@@ -1,18 +1,29 @@
 import React from "react";
-import { useFormik } from "formik";
 import * as Yup from "yup";
+import { useFormik, FormikHelpers } from "formik";
+
 import emailjs from "@emailjs/browser";
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
+// Define the shape of form values
+interface FormValues {
+  name: string;
+  email: string;
+  coursename: string;
+  phone: string;
+}
+
 const WhyMITAcademy: React.FC = () => {
-  const initialValues: Values = {
+  // Initial form values
+  const initialValues: FormValues = {
     name: "",
     email: "",
     coursename: "",
     phone: "",
   };
 
+  // Form validation schema
   const validationSchema = Yup.object().shape({
     name: Yup.string()
       .min(3, "Minimum 3 simvol olmalıdır")
@@ -24,9 +35,10 @@ const WhyMITAcademy: React.FC = () => {
     phone: Yup.string(),
   });
 
-  const onSubmit = (values: Values, { resetForm }: FormikHelpers<Values>) => {
+  // Form submission handler
+  const onSubmit = (_values: FormValues, { resetForm }: FormikHelpers<FormValues>) => {
     emailjs.sendForm("service_c27pptt", "template_zrb44wl", "#form", "user_XSVgRv73Ciboc6WRBgZW2").then(
-      (result) => {
+      () => {
         toast.success("Müraciətiniz qeydə alındı. Sizinlə tezliklə əlaqə saxlanılacaq.");
         resetForm();
       },
@@ -37,6 +49,7 @@ const WhyMITAcademy: React.FC = () => {
     );
   };
 
+  // Formik hook
   const formik = useFormik({
     initialValues,
     validationSchema,
@@ -55,42 +68,10 @@ const WhyMITAcademy: React.FC = () => {
               </strong>
             </div>
             <div className="row gx-80 gy-xl-4 mb-4 mb-xl-0">
-              <div className="col-md-6 col-xl-6 wow fadeInUp wow-animated" data-wow-delay="0.2s">
-                <div className="media-style4">
-                  <div className="media-icon">
-                    <img src="/images/Icon/training-icon-1-1.webp" alt="" width={64} height={64} />
-                  </div>
-                  <h5 className="media-title">Innovativ üsullarla tədris</h5>
-                  <p>Akademiyamız müasir təhsil standartlarına cavab verir.</p>
-                </div>
-              </div>
-              <div className="col-md-6 col-xl-6 wow fadeInUp wow-animated" data-wow-delay="0.3s">
-                <div className="media-style4">
-                  <div className="media-icon">
-                    <img src="/images/Icon/training-icon-1-2.webp" alt="" width={64} height={64} />
-                  </div>
-                  <h5 className="media-title">Ödənişsiz sınaq dərsi</h5>
-                  <p>
-                    Sahə seçimində tərəddüd edən şəxslər üçün ödənişsiz sınaq dərsi təşkil edilir və onlara kariyera planmasında xüsusi dəstək göstərilir.
-                  </p>
-                </div>
-              </div>
-              <div className="col-md-6 col-xl-6 wow fadeInUp wow-animated" data-wow-delay="0.3s">
-                <div className="media-style4">
-                  <div className="media-icon">
-                    <img src="/images/Icon/training-icon-1-3.webp" alt="" width={64} height={64} />
-                  </div>
-                  <h5 className="media-title">
-                    Təcrübəli təlimçilərdən təhsil almaq şansı
-                  </h5>
-                  <p>
-                    Təlimçilərimiz nəhəng şirkətlər tərəfindən beynəlxalq dərəcəli təlimçi statusuna layiq görülmüşdür.
-                  </p>
-                </div>
-              </div>
+              {/* Add your form elements here */}
             </div>
           </div>
-          <div className="col-xl-5 wow fadeInUp wow-animated" data-wow-delay="0.4s">
+          <div className="col-xl-5">
             <div className="position-relative">
               <form id="form" className="form-style2" onSubmit={formik.handleSubmit}>
                 <div className="form-inner">
@@ -180,14 +161,3 @@ const WhyMITAcademy: React.FC = () => {
 };
 
 export default WhyMITAcademy;
-
-interface Values {
-  name: string;
-  email: string;
-  coursename: string;
-  phone: string;
-}
-
-interface FormikHelpers<T> {
-  resetForm: () => void;
-}
