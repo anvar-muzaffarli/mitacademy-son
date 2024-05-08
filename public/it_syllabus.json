@@ -1,0 +1,353 @@
+{
+  "it": {
+    "helpdesk": {
+      "subjects": [
+        {
+          "title": "Texniki təminat- Hardware",
+          "content": "Kompüter hardware-ı haqqında əsas məlumatlar."
+        },
+        {
+          "title": "Anakart və onun növləri",
+          "content": "Anakartın funksiyaları, növləri və fərqləri haqqında məlumat."
+        },
+        {
+          "title": "Yaddaş qurğuları - HDD/SDD/RAM",
+          "content": "Hard disk, SSD və RAM kimi yaddaş cihazları haqqında məlumat."
+        },
+        {
+          "title": "Fayl sistemləri, bölünmə tərzi",
+          "content": "Fayl sistemlərinin növləri və bölünmə tərzləri haqqında məlumat."
+        },
+        {
+          "title": "Giriş Çıxış qurğuları, Portlar",
+          "content": "Kompüterdə istifadə olunan giriş çıxış portları haqqında məlumat."
+        },
+        {
+          "title": "Daxili və xarici videokart - GPU",
+          "content": "Grafika kartlarının növləri və funksiyaları haqqında məlumat."
+        },
+        {
+          "title": "Prosessor - CPU",
+          "content": "Prosessor növləri, funksiyaları və iş prinsipləri haqqında məlumat."
+        },
+        {
+          "title": "Silinmiş məlumatların bərpası, BackUp",
+          "content": "Silinmiş faylların və məlumatların bərpası və yedəklənmə prosesləri haqqında məlumat."
+        },
+        {
+          "title": "Əməliyyat sistemləri - Windows, Linux",
+          "content": "Windows və Linux əməliyyat sistemlərinin qurulması və idarə olunması haqqında məlumat."
+        },
+        {
+          "title": "Format, driverlərin yazılması",
+          "content": "Kompüterdə format atmaq və sürücülərin quraşdırılması haqqında məlumat."
+        },
+        {
+          "title": "Elektrik və elektronikaya giriş",
+          "content": "Elektrik baxımından kompüterə giriş və elektronik əsaslar haqqında məlumat."
+        },
+        {
+          "title": "Düzgün enerjidə qidabloku seçilməsi - PSU",
+          "content": "Düzgün enerji təminatı üçün qidablok seçilməsi və quraşdırılması haqqında məlumat."
+        },
+        {
+          "title": "UPS - Rezerv enerji sistemləri",
+          "content": "Uninterruptible Power Supply (UPS) və rezerv enerji sistemlərinin nəzərdən keçirilməsi və istifadəsi haqqında məlumat."
+        },
+        {
+          "title": "Kompüterlərin sıfırdan yığılması",
+          "content": "Kompüterlərin birləşdirilməsi, quraşdırılması və təkmilləşdirilməsi haqqında məlumat."
+        }
+      ]
+    },
+    "shebeke": {
+      "subjects": [
+        {
+          "title": "Şəbəkə, İnternet anlayışları",
+          "content": "Şəbəkə və İnternet konseptləri və əsasları haqqında məlumat."
+        },
+        {
+          "title": "OSI, TCP/IP strukturu",
+          "content": "OSI və TCP/IP protokollarının strukturu və funksiyaları haqqında məlumat."
+        },
+        {
+          "title": "MAC, IP adresləri - IPv4, IPv6",
+          "content": "MAC və IP adreslərinin IPv4 və IPv6 protokolları ilə əlaqəsi haqqında məlumat."
+        },
+        {
+          "title": "Şəbəkə avadanlıqları - Hub, Swich, Router, Modem",
+          "content": "Şəbəkə avadanlıqlarının funksiyaları və fərqləri haqqında məlumat."
+        },
+        {
+          "title": "Packet Tracer simulatoru və GNS3 emulatoru",
+          "content": "Şəbəkə simulatorları və emulatorlarının istifadəsi haqqında məlumat."
+        },
+        {
+          "title": "Daxili və Xarici şəbəkələr - LAN, WAN",
+          "content": "LAN və WAN kimi şəbəkələrin funksiyaları və xüsusiyyətləri haqqında məlumat."
+        },
+        {
+          "title": "Privet IP, Public IP",
+          "content": "Privet və Public IP adreslərinin funksiyaları və istifadəsi haqqında məlumat."
+        },
+        {
+          "title": "Protokollar - FTP, OSPF, EIGRP, SYSLOG, HTTPS, ARP",
+          "content": "Əsas şəbəkə protokollarının funksiyaları və istifadəsi haqqında məlumat."
+        },
+        {
+          "title": "Servislər və serverlər - DHCP, DNS, NTP, RADIUS",
+          "content": "Şəbəkə servislərinin və serverlərin funksiyaları və qurulmaları haqqında məlumat."
+        },
+        {
+          "title": "Domain və Hosting anlayışları",
+          "content": "Domain və hosting konseptləri və əlaqəsi haqqında məlumat."
+        },
+        {
+          "title": "VLAN - Virtual LAN strukturu",
+          "content": "Virtual LAN (VLAN) strukturunun funksiyaları və istifadəsi haqqında məlumat."
+        },
+        {
+          "title": "Şəbəkə təhlükəsizliyi - ACL, Port Security, DAI, DM",
+          "content": "Şəbəkə təhlükəsizliyi metodlarının və texnikalarının istifadəsi haqqında məlumat."
+        },
+        {
+          "title": "Internet - PPoE, VPN, Proxy, BGP",
+          "content": "Internet və internet servislərinin funksiyaları və əlaqəsi haqqında məlumat."
+        },
+        {
+          "title": "DevOps Giriş - Avtomatlaşdırma, Python",
+          "content": "DevOps konsepti və avtomatlaşdırma prosesləri haqqında məlumat."
+        }
+      ]
+    },
+    "bulud": {
+      "subjects": [
+        {
+          "title": "Virtuallaşdırma və onun növləri",
+          "content": "Virtuallaşdırma konsepti və növləri haqqında məlumat."
+        },
+        {
+          "title": "Type 1, Type 2 virtualization",
+          "content": "Type 1 və Type 2 virtualizasiya növləri haqqında məlumat."
+        },
+        {
+          "title": "Müasir dövrdəki virtuallaşdırma həlləri",
+          "content": "Müasir virtualizasiya həlləri və alətləri haqqında məlumat."
+        },
+        {
+          "title": "VMWARE, ORACLE, Microsoft",
+          "content": "Əsas bulud virtualizasiya platformaları haqqında məlumat."
+        },
+        {
+          "title": "Workstation, Player, Virtual Box, Hyper-V",
+          "content": "Əsas virtualizasiya alətləri və platformaları haqqında məlumat."
+        },
+        {
+          "title": "Snapshot nədir və necə alınır",
+          "content": "Virtual maşınların snapshotlarının istifadəsi və yaradılması haqqında məlumat."
+        },
+        {
+          "title": "Virtual disk, Virtual Network",
+          "content": "Virtual disk və şəbəkələrin istifadəsi və konfiqurasiyası haqqında məlumat."
+        },
+        {
+          "title": "Workstation quraşdırılması və sazlanması",
+          "content": "Əsas virtual iş maşınlarının quraşdırılması və sazlanması haqqında məlumat."
+        },
+        {
+          "title": "Server virtualization - ESXI",
+          "content": "ESXI server virtualizasiya platformasının istifadəsi və konfiqurasiyası haqqında məlumat."
+        },
+        {
+          "title": "vMotion, vSphere, vCenter, DataCenter",
+          "content": "Əsas VMWare virtualizasiya terminalları və alətləri haqqında məlumat."
+        },
+        {
+          "title": "Hyper-v Quraşdırılması və sazlanması",
+          "content": "Microsoft Hyper-V server virtualizasiya platformasının istifadəsi və sazlanması haqqında məlumat."
+        },
+        {
+          "title": "Bulud texnologiyaları - Cloud Computing",
+          "content": "Bulud texnologiyalarının konsepti və fərqləri haqqında məlumat."
+        },
+        {
+          "title": "laaS, PaaS, SaaS",
+          "content": "Bulud servis modellərinin əsasları və fərqləri haqqında məlumat."
+        },
+        {
+          "title": "Amazon AWS, Microsoft Azure",
+          "content": "Əsas bulud servis təchizatçıları və platformaları haqqında məlumat."
+        }
+      ]
+    },
+    "sistem": {
+      "subjects": [
+        {
+          "title": "Server və onun növləri",
+          "content": "Serverlərin növləri və funksiyaları haqqında məlumat."
+        },
+        {
+          "title": "Windows Server 2023 quraşdırılması",
+          "content": "Windows Server 2023-nün quraşdırılması və sazlanması haqqında məlumat."
+        },
+        {
+          "title": "Local Users and Groups",
+          "content": "Local istifadəçi və qrupların idarə edilməsi haqqında məlumat."
+        },
+        {
+          "title": "Active Directory - AD, Domain Users",
+          "content": "Active Directory və Domain istifadəçilərinin idarə edilməsi haqqında məlumat."
+        },
+        {
+          "title": "File Sharing",
+          "content": "Fayl paylaşımı və şəbəkə paylaşımlarının konfiqurasiyası haqqında məlumat."
+        },
+        {
+          "title": "Group Policy - GP",
+          "content": "Grup siyasətinin istifadəsi və konfiqurasiyası haqqında məlumat."
+        },
+        {
+          "title": "DHCP Server",
+          "content": "DHCP serverinin quraşdırılması və konfiqurasiyası haqqında məlumat."
+        },
+        {
+          "title": "Forest, Tree, Parent and Child Domain, DNS Server",
+          "content": "Active Directory domain modelinin strukturu və konseptləri haqqında məlumat."
+        },
+        {
+          "title": "FSRM - File Server Resource Manager",
+          "content": "Fayl serverinin resurslərinin idarə edilməsi haqqında məlumat."
+        },
+        {
+          "title": "IP Filtering",
+          "content": "IP filtrasiyası və şəbəkə trafiğinin idarə edilməsi haqqında məlumat."
+        },
+        {
+          "title": "NPS - Network Policy Server",
+          "content": "Şəbəkə siyasətinin idarə edilməsi və monitorinqi haqqında məlumat."
+        },
+        {
+          "title": "IIS - Internet Information Service",
+          "content": "Internet məlumat servisinin quraşdırılması və konfiqurasiyası haqqında məlumat."
+        },
+        {
+          "title": "WSUS - Windows Server Update Service",
+          "content": "Windows serverin avtomatik yeniləmə xidmətinin quraşdırılması haqqında məlumat."
+        },
+        {
+          "title": "RDP - Remote Desktop Service",
+          "content": "Uzaq masaüstü xidmətinin quraşdırılması və konfiqurasiyası haqqında məlumat."
+        }
+      ]
+    }
+  },
+  "programming": {
+    "nodejs":{
+      "subjects":[
+        {
+          "title":"1",
+          "content": "1."
+        }
+      ]
+    }
+
+    ,
+
+    "python":{
+      "subjects":[
+        {
+          "title":"1",
+          "content": "1."
+        }
+      ]
+    },
+
+    "java":{
+      "subjects":[
+        {
+          "title":"1",
+          "content": "1."
+        }
+      ]
+    },
+    "dsa" : {
+      "title": "title",
+      "content": "content"
+    },
+    "frontend" : {
+      "title": "title",
+      "content": "content"
+    }
+  },
+  "design": {
+    "qrafik":{
+      "subjects":[
+        {
+          "title":"1",
+          "content": "1."
+        }
+      ]
+    }
+
+    ,
+
+    "motion":{
+      "subjects":[
+        {
+          "title":"1",
+          "content": "1."
+        }
+      ]
+    }
+
+  },
+  "office": {
+    "msword":{
+      "subjects":[
+        {
+          "title":"1",
+          "content": "1."
+        }
+      ]
+    }
+
+    ,
+
+    "msexcel":{
+      "subjects":[
+        {
+          "title":"1",
+          "content": "1."
+        }
+      ]
+    },
+
+    "mspowerpoint":{
+      "subjects":[
+        {
+          "title":"1",
+          "content": "1."
+        }
+      ]
+    },
+    "msaccess":{
+      "subjects":[
+        {
+          "title":"1",
+          "content": "1."
+        }
+      ]
+    }
+  },
+  "SMM": {
+    "reqemsal":{
+      "subjects":[
+        {
+          "title":"1",
+          "content": "1."
+        }
+      ]
+    }
+    
+  }
+}
